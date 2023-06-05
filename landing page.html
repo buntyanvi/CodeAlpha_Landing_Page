@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: 'Helvetica', 'futura-medium',;
+      margin: 0;
+      padding: 0;
+      background-color: #F2F2F2;
+      background-image: url('landing\ page\ pic.jpeg');
+    }
+
+    .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #FFFFFF;
+  background-image: url('8.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+    .icon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 48px;
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #666;
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 40px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #FF6F61;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <a href="#"><i class="fas fa-home icon"></i></a>
+      <a href="#"><i class="fas fa-shopping-cart icon"></i></a>
+      <a href="#"><i class="fas fa-user icon"></i></a>
+    </div>
+    <h1 >Welcome to our Landing Page!</h1>
+    <p>In this landing page, you'll find a clean and modern design that aims to capture your attention. The page features a beautiful background image that sets a visually appealing tone. The content is displayed within a centered container, surrounded by a subtle shadow effect and rounded corners, which adds a touch of elegance.</p>
+    
+    <p>Our landing page provides valuable information and resources about our product or service. .</p>
+
+    <a href="#" class="button" onclick="buttonClicked()">Get Started</a>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
+  <script>
+    // JavaScript functions
+    function buttonClicked() {
+      alert('Button clicked!');
+    }
+
+    // Example: Changing the background color on button hover
